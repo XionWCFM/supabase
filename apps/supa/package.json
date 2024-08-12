@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-types": "pnpm dlx supabase gen types typescript --project-id djqsianoydwddpqhztjn --schema public > types_db.ts"
   },
   "dependencies": {
     "react": "^18",
