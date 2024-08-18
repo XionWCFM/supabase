@@ -10,17 +10,21 @@
     "generate-types": "pnpm dlx supabase gen types typescript --project-id djqsianoydwddpqhztjn --schema public > types_db.ts"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.4.0",
+    "@tanstack/react-query": "^5.51.23",
+    "jotai": "^2.9.2",
+    "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@internal/tailwind-config": "workspace:*",
+    "@tanstack/react-query-devtools": "^5.51.23",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@internal/tailwind-config": "workspace:*",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
